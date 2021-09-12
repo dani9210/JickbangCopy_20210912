@@ -30,10 +30,11 @@ class RoomAdapter(
 
             val data = mList[position]
 
-            val priceTxt = row.findViewById<TextView>(R.id.priceTxt)
-            val addressandFloorTxt = row.findViewById<TextView>(R.id.addressandFloorTxt)
-           val descriptionTxt = row.findViewById<TextView>(R.id.descriptionTxt)
+            val priceTxt = row.findViewById<TextView>(com.nepplus.jickbangcopy_20210912.R.id.priceTxt)
+            val addressandFloorTxt = row.findViewById<TextView>(com.nepplus.jickbangcopy_20210912.R.id.addressandFloorTxt)
+           val descriptionTxt = row.findViewById<TextView>(com.nepplus.jickbangcopy_20210912.R.id.descriptionTxt)
 
+           priceTxt.text = data.getFormattedPrice()
 
         return row
     }
