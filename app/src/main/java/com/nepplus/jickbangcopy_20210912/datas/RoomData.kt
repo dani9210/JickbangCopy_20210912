@@ -20,7 +20,8 @@ class RoomData(
 
 
         if(this.floor > 0){
-            return"${this.floor}층"
+
+            return "${this.floor}층"
 
         }
 
