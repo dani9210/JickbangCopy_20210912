@@ -8,10 +8,11 @@
         android:label="@string/jickbang_copy"
         android:roundIcon="@mipmap/ic_gickbang_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.JickbangCopy_20210912">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
             android:name="com.nepplus.Activity_view_room_detail"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
