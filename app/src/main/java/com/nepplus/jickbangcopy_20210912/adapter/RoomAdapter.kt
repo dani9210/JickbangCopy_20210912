@@ -21,9 +21,10 @@ class RoomAdapter(
 
         var tempRow = convertView
         if (tempRow == null) {
-            temprow = mInflater.inflate(R.layout)
+            tempRow = mInflater.inflate(R.layout.bang_list_item)
 
-            val row - tempRow!!
+
+            val row = tempRow!!
 
             return row
         }
