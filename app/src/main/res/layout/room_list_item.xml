@@ -23,6 +23,7 @@
             android:padding="10dp">
 
             <TextView
+                android:id="@+id/priceTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8,000가격"
@@ -31,6 +32,7 @@
                 android:textColor="#FEA409"/>
 
             <TextView
+                android:id="@+id/addressandFloorTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="동네, 층수"
@@ -39,6 +41,7 @@
                 android:layout_marginTop="3dp"/>
 
             <TextView
+                android:id="@+id/descriptionTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
