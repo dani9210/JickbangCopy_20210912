@@ -21,13 +21,13 @@ class RoomAdapter(
 
         var tempRow = convertView
         if (tempRow == null) {
-            tempRow = mInflater.inflate(R.layout.bang_list_item)
+            tempRow =
+                mInflater.inflate(com.nepplus.jickbangcopy_20210912.R.layout.room_list_item, null)
 
-
+        }
             val row = tempRow!!
 
-            return row
-        }
 
+        return row
     }
 }
